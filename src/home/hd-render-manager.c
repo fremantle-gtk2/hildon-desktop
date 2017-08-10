@@ -3397,7 +3397,6 @@ hd_render_manager_press_effect (void)
     HdRenderManagerPrivate *priv = render_manager->priv;
 
     g_return_if_fail (render_manager != NULL);
-    g_return_if_fail (!render_manager->priv->zoomed);
 
     if (!priv->press_effect)  
     {
